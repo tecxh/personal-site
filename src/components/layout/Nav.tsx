@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const Nav = () => {
   return (
-    <nav>
+    <nav className="flex-1 p-4">
       <ul>
         <li><Link href="/">/</Link></li>
         <li><Link href="/about">about</Link></li>
