@@ -1,0 +1,10 @@
+{
+    "git": {
+        "deploymentEnabled": {
+            "main": true,
+            "feat-*": true,
+            "am/home": true,
+            "*": false
+        }
+    }
+}
