@@ -1,3 +1,4 @@
 export * from './Nav'
 export * from './Banner'
 export * from './Footer'
+export * from './PageContainer'

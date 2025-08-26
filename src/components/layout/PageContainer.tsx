@@ -1,0 +1,14 @@
+import { PropsWithChildren } from "react"
+
+interface PageContainerProps extends PropsWithChildren {
+  pageHeader?: string;
+}
+
+export const PageContainer = ({ children, pageHeader }: PageContainerProps) => {
+  return (
+    <main role="main" className="flex-1 p-4">
+      {pageHeader && <h3>{pageHeader}</h3>}
+      {children}
+    </main>
+  )
+}

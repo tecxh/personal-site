@@ -33,9 +33,7 @@ export default function RootLayout({
             <Banner />
             <Nav />
           </div>
-          <div className="flex-1">
-            {children}
-          </div>
+          {children}
         </div>
         <Footer />
       </body>
