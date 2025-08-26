@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen`}
       >
         <div className="flex">
-          <div className="2-50 flex-col">
+          <div className="flex-col flex-none w-510px">
             <Banner />
             <Nav />
           </div>
