@@ -3,6 +3,7 @@
         "deploymentEnabled": {
             "main": true,
             "am/home": true,
+            "feature-*": true,
             "*": false
         }
     }
