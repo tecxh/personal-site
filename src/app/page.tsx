@@ -1,16 +1,7 @@
+
 export default function Home() {
   return (
     <div className="">
-      <header role="banner">
-        <h1>alecx moritz</h1>
-        <h2>accessible software engineer</h2>
-        <nav>
-          <ul>
-            <li>site map</li>
-            <li>to top</li>
-          </ul>
-        </nav>
-      </header>
       <main role="main">
         <section aria-labelledby="about-header" role="region">
           <h3 id="about-header">About</h3>
@@ -25,9 +16,6 @@ export default function Home() {
           <p>provide a brief intro to personal github, link a project maybe</p>
         </section>
       </main>
-      <footer role="contentinfo">
-        <p>link to email & other connection paths</p>
-      </footer>
     </div>
   );
 }
