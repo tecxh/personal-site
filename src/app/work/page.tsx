@@ -1,10 +1,10 @@
 import { PageContainer } from "~/components/common";
 
-export default function Home() {
+export default function Work() {
   return (
     <div className="">
-      <PageContainer pageHeader="">
-        <p>cool graphic here</p>
+      <PageContainer pageHeader="Work">
+        <p>work history</p>
       </PageContainer>
     </div>
   );
