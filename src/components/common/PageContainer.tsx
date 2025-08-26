@@ -6,7 +6,7 @@ interface PageContainerProps extends PropsWithChildren {
 
 export const PageContainer = ({ children, pageHeader }: PageContainerProps) => {
   return (
-    <main role="main" className="flex-1 p-4">
+    <main role="main" className="p-4">
       {pageHeader && <h3>{pageHeader}</h3>}
       {children}
     </main>
