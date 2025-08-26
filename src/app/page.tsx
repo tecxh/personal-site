@@ -1,4 +1,4 @@
-import { PageContainer } from "~/components/layout";
+import { PageContainer } from "~/components/common";
 
 export default function Home() {
   return (
