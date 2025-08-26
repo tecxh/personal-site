@@ -1,9 +1,9 @@
 
-export default function Home() {
+export default function Experience() {
   return (
     <div className="">
       <main role="main">
-        <p>home</p>
+        <p>experience</p>
       </main>
     </div>
   );

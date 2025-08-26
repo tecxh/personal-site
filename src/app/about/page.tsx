@@ -1,9 +1,9 @@
 
-export default function Home() {
+export default function About() {
   return (
     <div className="">
       <main role="main">
-        <p>home</p>
+        <p>about</p>
       </main>
     </div>
   );
