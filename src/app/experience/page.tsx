@@ -1,10 +1,11 @@
+import { PageContainer } from "~/components/common";
 
 export default function Experience() {
   return (
     <div className="">
-      <main role="main">
+      <PageContainer pageHeader="Experience">
         <p>experience</p>
-      </main>
+      </PageContainer>
     </div>
   );
 }

@@ -1,10 +1,11 @@
+import { PageContainer } from "~/components/common";
 
 export default function About() {
   return (
     <div className="">
-      <main role="main">
+      <PageContainer pageHeader="About">
         <p>about</p>
-      </main>
+      </PageContainer>
     </div>
   );
 }
