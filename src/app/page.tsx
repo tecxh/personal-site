@@ -1,11 +1,9 @@
 import { PageContainer } from "~/components/common";
+import { SkillsSubSection } from "~/components/SkillsSubSection";
 
 export default function Home() {
   return (
     <div className="">
-      <PageContainer pageHeader="">
-        <p>cool graphic here</p>
-      </PageContainer>
     </div>
   );
 }
