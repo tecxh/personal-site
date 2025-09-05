@@ -7,8 +7,8 @@ export const ExperienceSubSection = () => {
     return (
         <div className="mb-60">
             <h3 className="text-5xl mb-10 text-fuchsia-400">Experience</h3>
-            <div className="flex flex-row gap-10">
-                <div className="w-120">
+            <div className="flex flex-col-reverse sm:flex-row gap-10">
+                <div className="sm:w-120">
                     <ul className="text-2xl">
                         <li className="text-fuchsia-300">2019 - 2025, Software Engineer II, Augeo</li>
                         <p className="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam commodi illum deserunt quod, ad voluptas blanditiis! Suscipit voluptates, inventore, reiciendis explicabo ullam qui velit libero, eaque mollitia repellendus facere nisi?</p>
