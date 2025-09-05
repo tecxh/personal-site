@@ -6,7 +6,7 @@ export const ExperienceSubSection = () => {
     }
     return (
         <div className="mb-60">
-            <h3 className="text-5xl mb-10">Experience</h3>
+            <h3 className="text-5xl mb-10 text-fuchsia-400">Experience</h3>
             <div className="flex flex-row gap-10">
                 <div className="w-120">
                     <ul className="text-2xl">
