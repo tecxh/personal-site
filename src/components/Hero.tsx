@@ -4,7 +4,7 @@ export const Hero = () => {
         name: 'Alecx Moritz',
         title: 'Software Engineer',
         intro: [
-            'I am an Indianapolis, US based engineer specialized in interactive, data intensive software with a strong emphasis on accessibility.',
+            'I am an Indianapolis, US based engineer specialized in interactive, data intensive software and atomic UI components with a strong emphasis on accessibility.',
             // 'I build interactive, data intensive software with a strong emphasis on accessibility.',
             'I believe the web and it\'s contents should be well within reach of everyone.'
         ]
