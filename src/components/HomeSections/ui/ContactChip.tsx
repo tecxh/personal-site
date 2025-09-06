@@ -22,7 +22,7 @@ export const ContactChip = (props: ContactChipProps) => {
   })()
 
   return (
-    <div className="text-2xl border-2 rounded-4xl my-4 px-4 w-fit text-fuchsia-300 border-fuchsia-300 hover:text-fuchsia-200 hover:border-fuchsia-200">
+    <div className="text-md lg:text-2xl border-2 rounded-4xl my-4 px-4 w-fit text-fuchsia-300 border-fuchsia-300 hover:text-fuchsia-200 hover:border-fuchsia-200">
       <a href={href} target="_blank" rel="noopener">
         <div className="flex flex-row items-center gap-2">
           {Icon}
