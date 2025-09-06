@@ -1,7 +1,7 @@
 export const Viz = () => {
   return (
-    <div className="flex items-center justify-center mt-40">
-      <svg width="500" height="200" viewBox="0 0 500 200" className="sm:scale-300">
+    <div className="flex items-center justify-center mt-2">
+      <svg viewBox="0 0 500 200" className="w-screen">
         {/* Main angular blob shape inspired by sound waves */}
         <path
           d="M50 100 L80 60 L120 140 L160 40 L200 120 L240 80 L280 160 L320 30 L360 110 L400 70 L440 150 L450 100 Z"

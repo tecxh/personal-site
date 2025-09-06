@@ -9,6 +9,7 @@ export default function Home() {
       <ExperienceSubSection />
       <SkillsSubSection />
       <ContactSubSection />
+      <p>footer footer footer</p>
     </div>
   );
 }
