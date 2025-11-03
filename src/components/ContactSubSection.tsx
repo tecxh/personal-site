@@ -2,7 +2,7 @@ import { ContactChip } from "./HomeSections/ui/ContactChip"
 
 export const ContactSubSection = () => {
     return (
-        <div className="mt-10 mb-10 lg:mb-30">
+        <div className="mt-10">
             {/* <h3 className="text-2xl lg:text-5xl mb-2 lg:mb-10 text-fuchsia-400">Contact</h3> */}
             {/* <p className="text-md lg:text-2xl mb-2 lg:mb-10">Got a project you think I&apos;d fit into or need some help with WCAG compliance? Live around Indy and want to grab coffee? Let&apos;s do it.</p> */}
             <ContactChip href="mailto:alecxmoritz@gmail.com" text="Email" iconVariant="email" />
