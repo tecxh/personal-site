@@ -6,10 +6,9 @@ import { SkillsSubSection } from "~/components/SkillsSubSection";
 export default function Home() {
   return (
     <div className="">
-      <ExperienceSubSection />
-      <SkillsSubSection />
-      <ContactSubSection />
-      <p>footer footer footer</p>
+      {/* <ExperienceSubSection /> */}
+      {/* <SkillsSubSection /> */}
+      {/* <ContactSubSection /> */}
     </div>
   );
 }
