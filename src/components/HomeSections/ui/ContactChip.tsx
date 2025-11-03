@@ -1,9 +1,9 @@
-import { AtIcon, GithubLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react/dist/ssr";
+import { AtIcon, FilePdfIcon, GithubLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react/dist/ssr";
 
 interface ContactChipProps {
   href: string;
   text: string;
-  iconVariant: 'github' | 'email' | 'linkedin';
+  iconVariant: 'github' | 'email' | 'linkedin' | 'pdf';
 }
 
 export const ContactChip = (props: ContactChipProps) => {
@@ -15,6 +15,8 @@ export const ContactChip = (props: ContactChipProps) => {
         return <GithubLogoIcon />
       case 'linkedin':
         return <LinkedinLogoIcon />
+      case 'pdf':
+        return <FilePdfIcon />
       case 'email':
       default:
         return <AtIcon />
